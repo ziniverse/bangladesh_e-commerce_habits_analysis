@@ -1,0 +1,1 @@
+CREATE DATABASE bangladesh_ecommerce_portfolio;

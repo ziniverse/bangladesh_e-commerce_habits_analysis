@@ -1,0 +1,300 @@
+respondent_id,gender,age_group,education_level,shopping_frequency,monthly_income,occupation
+1,Female,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+2,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+3,Male,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+4,Male,20-29,Graduate,Once every 3 months,"Less than 10,000",Student
+5,Male,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+6,Male,20-29,Graduate,Once a month,"Less than 10,000",Student
+7,Female,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+8,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+9,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+10,Male,30-39,Graduate,Once every 3 months,"30,000-40,000",Others
+11,Male,20-29,Graduate,Once every 3 months,"Less than 10,000",Student
+12,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+13,Male,Below 20,Under Graduate,Once every 6 months,"Less than 10,000",Student
+14,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+15,Female,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+16,Male,30-39,Graduate,Once a week,"More than 40,000",Others
+17,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+18,Male,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+19,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+20,Male,Above 49,Graduate,Once every 6 months,"More than 40,000",Business
+21,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+22,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+23,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+24,Male,20-29,Under Graduate,Once every 6 months,"20,000-29,000",Others
+25,Male,20-29,College,Once every 6 months,"Less than 10,000",Engineer
+26,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+27,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+28,Male,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+29,Male,30-39,Graduate,Once a week,"More than 40,000",Teaching
+30,Male,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+31,Male,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+32,Female,20-29,Graduate,Once a month,"Less than 10,000",Student
+33,Male,20-29,Graduate,Once a month,"20,000-29,000",Others
+34,Male,40-49,Graduate,Once a month,"More than 40,000",Engineer
+35,Male,20-29,Under Graduate,Once every 3 months,"20,000-29,000",Engineer
+36,Male,30-39,Graduate,Once every 6 months,"30,000-40,000",Engineer
+37,Male,20-29,Graduate,Once a month,"10,000-19,000",Engineer
+38,Male,40-49,PhD,Once a week,"30,000-40,000",Teaching
+39,Male,20-29,Graduate,Once every 6 months,"20,000-29,000",Engineer
+40,Male,30-39,Graduate,Once a month,"30,000-40,000",Teaching
+41,Others,30-39,Under Graduate,Once every 6 months,"Less than 10,000",Others
+42,Male,30-39,Under Graduate,Once a month,"More than 40,000",Engineer
+43,Male,30-39,Graduate,Once a month,"More than 40,000",Engineer
+44,Male,30-39,Under Graduate,Once a month,"10,000-19,000",Others
+45,Male,20-29,College,Once every 3 months,"10,000-19,000",Student
+46,Male,20-29,Graduate,Once every 3 months,"30,000-40,000",Engineer
+47,Male,30-39,Graduate,Once every 3 months,"More than 40,000",Others
+48,Male,30-39,Graduate,Once every 6 months,"More than 40,000",Engineer
+49,Male,30-39,Graduate,Once every 6 months,"20,000-29,000",Engineer
+50,Male,30-39,Under Graduate,Once every 3 months,"30,000-40,000",Business
+51,Male,20-29,Under Graduate,Once every 3 months,"10,000-19,000",Engineer
+52,Male,30-39,Graduate,Once every 3 months,"More than 40,000",Engineer
+53,Male,30-39,Graduate,Once a week,"More than 40,000",Engineer
+54,Female,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+55,Male,20-29,Graduate,Once every 3 months,"20,000-29,000",Engineer
+56,Male,20-29,Under Graduate,Once every 6 months,"More than 40,000",Engineer
+57,Male,30-39,Under Graduate,Once a week,"More than 40,000",Engineer
+58,Male,30-39,Graduate,Once every 3 months,"More than 40,000",Engineer
+59,Male,20-29,Graduate,Once every 6 months,"More than 40,000",Engineer
+60,Male,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+61,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Teaching
+62,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+63,Male,20-29,Graduate,Once a month,"30,000-40,000",Others
+64,Male,30-39,Under Graduate,Once a month,"30,000-40,000",Business
+65,Male,30-39,Graduate,Once a week,"More than 40,000",Engineer
+66,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+67,Male,20-29,Graduate,Once every 3 months,"Less than 10,000",Student
+68,Male,30-39,Graduate,Once a month,"30,000-40,000",Engineer
+69,Male,40-49,Graduate,Once a month,"More than 40,000",Engineer
+70,Male,20-29,Graduate,Once a month,"20,000-29,000",Others
+71,Male,20-29,Under Graduate,Once every 6 months,"10,000-19,000",Engineer
+72,Male,30-39,Graduate,Once a month,"More than 40,000",Engineer
+73,Male,30-39,Graduate,Once every 6 months,"More than 40,000",Engineer
+74,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+75,Male,30-39,Graduate,Once every 6 months,"More than 40,000",Engineer
+76,Male,20-29,Graduate,Once a month,"20,000-29,000",Engineer
+77,Male,20-29,Graduate,Once a month,"30,000-40,000",Engineer
+78,Female,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+79,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+80,Female,20-29,Graduate,Once a week,"10,000-19,000",Business
+81,Female,20-29,Under Graduate,Once a month,"10,000-19,000",Student
+82,Male,20-29,Graduate,Once every 6 months,"10,000-19,000",Student
+83,Female,30-39,Graduate,Once a week,"20,000-29,000",Business
+84,Female,20-29,Graduate,Once every 3 months,"Less than 10,000",Student
+85,Female,30-39,Under Graduate,Once a week,"10,000-19,000",Others
+86,Male,20-29,Under Graduate,Once every 3 months,"10,000-19,000",Others
+87,Female,40-49,Graduate,Once a month,"Less than 10,000",Others
+88,Male,30-39,Graduate,Once a month,"More than 40,000",Engineer
+89,Male,20-29,Graduate,Once a month,"Less than 10,000",Student
+90,Female,20-29,Graduate,Once a week,"30,000-40,000",Business
+91,Male,30-39,Graduate,Once a month,"More than 40,000",Engineer
+92,Female,20-29,Graduate,Once a month,"Less than 10,000",Business
+93,Male,20-29,Graduate,Once every 3 months,"Less than 10,000",Student
+94,Female,40-49,Graduate,Once a month,"10,000-19,000",Business
+95,Female,30-39,Graduate,Once a month,"10,000-19,000",Business
+96,Female,20-29,Graduate,Once every 3 months,"Less than 10,000",Business
+97,Male,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+98,Male,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+99,Male,20-29,Graduate,Once every 3 months,"30,000-40,000",Engineer
+100,Female,20-29,Under Graduate,Once a month,"Less than 10,000",Doctor
+101,Male,20-29,Graduate,Once a week,"More than 40,000",Student
+102,Male,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+103,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+104,Male,20-29,Graduate,Once a month,"20,000-29,000",Engineer
+105,Female,30-39,Graduate,Once a week,"Less than 10,000",Business
+106,Male,30-39,Graduate,Once every 6 months,"Less than 10,000",Others
+107,Male,20-29,Graduate,Once every 6 months,"More than 40,000",Engineer
+108,Male,20-29,Under Graduate,Once every 6 months,"20,000-29,000",Engineer
+109,Male,20-29,Graduate,Once a month,"Less than 10,000",Engineer
+110,Female,20-29,Graduate,Once a month,"Less than 10,000",Business
+111,Female,20-29,Graduate,Once a month,"Less than 10,000",Student
+112,Female,30-39,Graduate,Once a month,"10,000-19,000",Business
+113,Female,30-39,Graduate,Once a month,"20,000-29,000",Business
+114,Male,30-39,Graduate,Once a month,"More than 40,000",Engineer
+115,Male,20-29,Under Graduate,Once every 6 months,"30,000-40,000",Engineer
+116,Female,30-39,Graduate,Once every 6 months,"Less than 10,000",Others
+117,Female,40-49,Graduate,Once every 6 months,"Less than 10,000",Others
+118,Male,20-29,Graduate,Once every 6 months,"30,000-40,000",Engineer
+119,Male,20-29,Graduate,Once every 6 months,"30,000-40,000",Engineer
+120,Male,20-29,Graduate,Once a month,"More than 40,000",Engineer
+121,Female,20-29,Graduate,Once every 3 months,"30,000-40,000",Student
+122,Female,30-39,Graduate,Once every 6 months,"Less than 10,000",Teaching
+123,Female,20-29,Graduate,Once a month,"20,000-29,000",Business
+124,Male,20-29,Graduate,Once every 6 months,"20,000-29,000",Engineer
+125,Female,20-29,Under Graduate,Once every 6 months,"30,000-40,000",Student
+126,Male,20-29,Under Graduate,Once every 6 months,"10,000-19,000",Engineer
+127,Male,20-29,Graduate,Once a week,"30,000-40,000",Engineer
+128,Female,30-39,Graduate,Once every 3 months,"Less than 10,000",Business
+129,Female,30-39,Graduate,Once a month,"Less than 10,000",Business
+130,Female,30-39,Graduate,Once every 3 months,"Less than 10,000",Others
+131,Female,20-29,Graduate,Once a week,"10,000-19,000",Business
+132,Female,20-29,Graduate,Once every 6 months,"Less than 10,000",Govt. employee
+133,Female,30-39,PhD,Once a week,"30,000-40,000",Others
+134,Female,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+135,Female,30-39,Under Graduate,Once a week,"More than 40,000",Others
+136,Female,30-39,Graduate,Once a month,"Less than 10,000",Others
+137,Female,30-39,Graduate,Once a week,"10,000-19,000",Teaching
+138,Male,20-29,Graduate,Once every 6 months,"30,000-40,000",Engineer
+139,Male,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+140,Male,20-29,Graduate,Once every 3 months,"20,000-29,000",Others
+141,Male,30-39,Graduate,Once a month,"30,000-40,000",Govt. employee
+142,Female,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+143,Male,20-29,Graduate,Once a month,"Less than 10,000",Engineer
+144,Male,20-29,Graduate,Once every 6 months,"Less than 10,000",Engineer
+145,Male,20-29,Under Graduate,Once every 6 months,"20,000-29,000",Engineer
+146,Male,30-39,Graduate,Once a week,"More than 40,000",Engineer
+147,Male,20-29,Graduate,Once a month,"Less than 10,000",Student
+148,Male,20-29,Graduate,Once every 6 months,"30,000-40,000",Engineer
+149,Female,20-29,Graduate,Once every 3 months,"Less than 10,000",Student
+150,Male,20-29,Graduate,Once a month,"Less than 10,000",Student
+151,Male,30-39,Under Graduate,Once a month,"More than 40,000",Engineer
+152,Female,20-29,Graduate,Once every 3 months,"Less than 10,000",Student
+153,Female,30-39,Graduate,Once a week,"Less than 10,000",Business
+154,Male,20-29,Graduate,Once a month,"Less than 10,000",Student
+155,Female,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Others
+156,Male,30-39,PhD,Once every 3 months,"More than 40,000",Others
+157,Male,20-29,Graduate,Once a month,"30,000-40,000",Engineer
+158,Male,20-29,Graduate,Once a month,"More than 40,000",Doctor
+159,Female,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+160,Female,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+161,Male,20-29,Graduate,Once a month,"10,000-19,000",Others
+162,Male,30-39,Graduate,Once a month,"More than 40,000",Engineer
+163,Male,30-39,Graduate,Once every 6 months,"30,000-40,000",Others
+164,Male,20-29,Graduate,Once every 3 months,"10,000-19,000",Others
+165,Female,30-39,Graduate,Once every 6 months,"30,000-40,000",Teaching
+166,Female,20-29,Graduate,Once a month,"10,000-19,000",Teaching
+167,Male,30-39,Graduate,Once a month,"More than 40,000",Engineer
+168,Male,20-29,Graduate,Once every 3 months,"Less than 10,000",Student
+169,Male,30-39,Graduate,Once a month,"More than 40,000",Engineer
+170,Female,30-39,Graduate,Once a month,"20,000-29,000",Business
+171,Male,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+172,Male,20-29,Graduate,Once every 3 months,"More than 40,000",Others
+173,Male,20-29,Graduate,Once every 3 months,"More than 40,000",Engineer
+174,Female,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+175,Male,30-39,Graduate,Once every 3 months,"Less than 10,000",Others
+176,Male,20-29,Graduate,Once every 6 months,"10,000-19,000",Others
+177,Male,30-39,Graduate,Once every 3 months,"More than 40,000",Engineer
+178,Female,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+179,Male,20-29,Under Graduate,Once every 6 months,"10,000-19,000",Student
+180,Male,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+181,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+182,Male,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+183,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+184,Male,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+185,Male,20-29,Under Graduate,Once every 3 months,"More than 40,000",Student
+186,Male,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+187,Male,20-29,Under Graduate,Once a week,"10,000-19,000",Student
+188,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+189,Male,20-29,Graduate,Once every 3 months,"20,000-29,000",Student
+190,Male,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+191,Male,20-29,Graduate,Once a week,"20,000-29,000",Others
+192,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+193,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+194,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+195,Male,30-39,Graduate,Once a week,"More than 40,000",Others
+196,Male,20-29,Under Graduate,Once a month,"10,000-19,000",Business
+197,Male,20-29,Under Graduate,Once every 6 months,"20,000-29,000",Student
+198,Male,30-39,Graduate,Once a month,"More than 40,000",Engineer
+199,Female,20-29,Under Graduate,Once a month,"Less than 10,000",Business
+200,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+201,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+202,Male,20-29,Graduate,Once every 3 months,"Less than 10,000",Student
+203,Male,20-29,Graduate,Once every 6 months,"30,000-40,000",Govt. employee
+204,Male,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+205,Male,20-29,Graduate,Once a week,"10,000-19,000",Others
+206,Male,30-39,Under Graduate,Once every 3 months,"More than 40,000",Engineer
+207,Male,20-29,Under Graduate,Once a month,"20,000-29,000",Student
+208,Female,30-39,PhD,Once every 3 months,"More than 40,000",Student
+209,Male,30-39,Graduate,Once a month,"More than 40,000",Business
+210,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+211,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+212,Female,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+213,Male,30-39,Graduate,Once every 6 months,"20,000-29,000",Student
+214,Male,20-29,Graduate,Once every 3 months,"20,000-29,000",Others
+215,Male,20-29,Graduate,Once every 3 months,"20,000-29,000",Student
+216,Male,20-29,Under Graduate,Once a week,"Less than 10,000",Student
+217,Male,30-39,Graduate,Once a month,"More than 40,000",Others
+218,Female,20-29,Graduate,Once a month,"Less than 10,000",Teaching
+219,Male,Above 49,Graduate,Once every 6 months,"More than 40,000",Teaching
+220,Male,30-39,Graduate,Once a month,"20,000-29,000",Others
+221,Female,Above 49,PhD,Once every 6 months,"More than 40,000",Govt. employee
+222,Male,20-29,Graduate,Once a month,"Less than 10,000",Student
+223,Male,30-39,Graduate,Once a month,"Less than 10,000",Teaching
+224,Male,20-29,Graduate,Once a month,"Less than 10,000",Student
+225,Female,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+226,Female,20-29,Graduate,Once a month,"Less than 10,000",Business
+227,Female,20-29,Graduate,Once a month,"Less than 10,000",Others
+228,Female,20-29,Graduate,Once a month,"Less than 10,000",Student
+229,Male,Above 49,PhD,Once every 6 months,"More than 40,000",Teaching
+230,Male,20-29,Graduate,Once a month,"20,000-29,000",Others
+231,Female,20-29,Graduate,Once every 3 months,"30,000-40,000",Others
+232,Male,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+233,Female,20-29,Graduate,Once every 3 months,"Less than 10,000",Student
+234,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+235,Male,20-29,College,Once every 3 months,"10,000-19,000",Student
+236,Male,30-39,Graduate,Once every 6 months,"More than 40,000",Engineer
+237,Male,20-29,Graduate,Once every 6 months,"10,000-19,000",Teaching
+238,Male,30-39,Graduate,Once every 3 months,"More than 40,000",Teaching
+239,Male,20-29,Graduate,Once a month,"Less than 10,000",Student
+240,Male,20-29,Graduate,Once every 6 months,"10,000-19,000",Others
+241,Male,20-29,Graduate,Once every 3 months,"30,000-40,000",Business
+242,Male,30-39,Graduate,Once a month,"More than 40,000",Doctor
+243,Male,20-29,Under Graduate,Once a week,"Less than 10,000",Student
+244,Male,20-29,Graduate,Once a month,"10,000-19,000",Others
+245,Male,Below 20,Under Graduate,Once every 6 months,"Less than 10,000",Student
+246,Male,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+247,Female,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+248,Male,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+249,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+250,Male,20-29,Graduate,Once a week,"More than 40,000",Others
+251,Male,30-39,Graduate,Once every 3 months,"More than 40,000",Doctor
+252,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+253,Female,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+254,Female,20-29,Graduate,Once every 3 months,"10,000-19,000",Student
+255,Male,30-39,Graduate,Once a week,"More than 40,000",Engineer
+256,Male,30-39,Under Graduate,Once every 6 months,"30,000-40,000",Engineer
+257,Male,20-29,Graduate,Once a week,"More than 40,000",Engineer
+258,Male,30-39,Graduate,Once every 3 months,"More than 40,000",Engineer
+259,Male,30-39,Graduate,Once a month,"20,000-29,000",Others
+260,Male,20-29,Graduate,Once every 3 months,"Less than 10,000",Student
+261,Male,20-29,Graduate,Once every 3 months,"30,000-40,000",Engineer
+262,Male,30-39,Under Graduate,Once every 3 months,"30,000-40,000",Engineer
+263,Male,30-39,Graduate,Once a week,"30,000-40,000",Engineer
+264,Female,20-29,Graduate,Once every 3 months,"Less than 10,000",Others
+265,Male,30-39,Graduate,Once a month,"More than 40,000",Others
+266,Male,20-29,Graduate,Once a month,"30,000-40,000",Engineer
+267,Male,20-29,Graduate,Once every 3 months,"20,000-29,000",Engineer
+268,Male,20-29,Graduate,Once every 3 months,"20,000-29,000",Engineer
+269,Male,20-29,Graduate,Once every 6 months,"20,000-29,000",Engineer
+270,Male,20-29,Under Graduate,Once every 6 months,"More than 40,000",Engineer
+271,Male,20-29,Graduate,Once every 3 months,"20,000-29,000",Engineer
+272,Male,20-29,Graduate,Once a month,"Less than 10,000",Student
+273,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+274,Male,30-39,Graduate,Once a month,"20,000-29,000",Others
+275,Female,20-29,Graduate,Once every 3 months,"10,000-19,000",Student
+276,Male,20-29,Graduate,Once every 6 months,"30,000-40,000",Engineer
+277,Male,20-29,Graduate,Once every 3 months,"30,000-40,000",Engineer
+278,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+279,Female,40-49,Graduate,Once every 3 months,"30,000-40,000",Business
+280,Male,20-29,Graduate,Once a month,"Less than 10,000",Student
+281,Female,20-29,Graduate,Once a month,"Less than 10,000",Others
+282,Female,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+283,Female,40-49,Graduate,Once every 3 months,"More than 40,000",Teaching
+284,Female,20-29,Under Graduate,Once a month,"Less than 10,000",Student
+285,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+286,Female,20-29,Graduate,Once every 3 months,"20,000-29,000",Engineer
+287,Male,30-39,Graduate,Once a month,"More than 40,000",Govt. employee
+288,Male,20-29,Under Graduate,Once every 3 months,"Less than 10,000",Student
+289,Female,20-29,Graduate,Once every 6 months,"10,000-19,000",Student
+290,Female,20-29,Graduate,Once every 6 months,"10,000-19,000",Student
+291,Male,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+292,Male,30-39,Graduate,Once a month,"More than 40,000",Business
+293,Female,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student
+294,Female,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+295,Female,20-29,Graduate,Once every 6 months,"Less than 10,000",Student
+296,Male,30-39,Graduate,Once every 6 months,"More than 40,000",Teaching
+297,Female,20-29,Graduate,Once a month,"30,000-40,000",Govt. employee
+298,Female,20-29,Graduate,Once a week,"10,000-19,000",Others
+299,Female,20-29,Under Graduate,Once every 6 months,"Less than 10,000",Student

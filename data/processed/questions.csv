@@ -1,0 +1,31 @@
+question_id,question_text,dimension
+Q01,E-commerce sites provide wide array of product selection.,usability_efficiency
+Q02,E-commerce site follows competitive pricing.,usability_efficiency
+Q03,Searching cost is low.,usability_efficiency
+Q04,E-commerce sites provide in depth information.,usability_efficiency
+Q05,Shopping from E-commerce site seems more efficient and practical to me.,usability_efficiency
+Q06,E-commerce site is clear and understandable.,usability_efficiency
+Q07,Purchasing from E-commerce sites saves my time.,usability_efficiency
+Q08,Payment process seems easy to me.,usability_efficiency
+Q09,E-commerce site is easy to access and use.,usability_efficiency
+Q10,E-commerce sites provide understandable search facilities.,usability_efficiency
+Q11,E-commerce site internal browsing meets my needs.,usability_efficiency
+Q12,The ordering process used by the E-commerce site is simple.,usability_efficiency
+Q13,E-promotion about Pandemic situation engage me with E-commerce sites.,pandemic_motivations
+Q14,I think purchasing from E-commerce sites is less risky in this Pandemic.,pandemic_motivations
+Q15,Health safety encourages me to engage with E-commerce sites during Pandemic.,pandemic_motivations
+Q16,There is a sense of welcoming on E-commerce sites.,pandemic_motivations
+Q17,Social-distancing can be highly maintained through buying from E-commerce sites.,pandemic_motivations
+Q18,E-commerce is a reliable social network.,trust_security
+Q19,I believe on E-commerce to protect my privacy.,trust_security
+Q20,It is safe to pay money and perform a financial transaction on E-commerce site.,trust_security
+Q21,The E-commerce web site will protect my financial -related information.,trust_security
+Q22,Opinion of friends and family encourage me to buy from E-commerce sites in this pandemic situation.,trust_security
+Q23,Advise of the economic experts influence me to buy from E-commerce sites in current situation.,trust_security
+Q24,I would have positive feelings towards using E-commerce sites.,social_influence
+Q25,I think E-commerce sites would make my life more interesting.,social_influence
+Q26,E-commerce provides me better buying experience.,consumer_attitudes
+Q27,Buying from E-commerce sites is a pleasant thing to do.,consumer_attitudes
+Q28,I evaluate E-commerce as useful.,consumer_attitudes
+Q29,I am likely to purchase products/services on E-commerce sites in pandemic situation and suggest others.,consumer_attitudes
+Q30,I would consider purchasing products/services on E-commerce sites in the future.,consumer_attitudes
