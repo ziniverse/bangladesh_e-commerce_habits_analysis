@@ -1,70 +1,80 @@
+# Bangladeshi E-commerce Consumer Habits
 
-# Bangladeshi E-commerce Consumer Habits: A Survey-Based Analysis
+An end-to-end data analytics portfolio project exploring e-commerce
+attitudes, online shopping habits, trust, security, and purchase
+intention among 299 respondents in Bangladesh.
+
+The project uses Python for data preparation, PostgreSQL and SQL for
+data storage and analysis, and Microsoft Power BI for interactive data
+visualisation.
 
 ## Project Overview
 
-This project explores the online shopping habits, consumer attitudes, and purchase intentions of respondents in Bangladesh using survey data from 299 participants.
+This project analyses survey responses to understand how respondents
+Dataset: https://data.mendeley.com/datasets/npsbdyv7ry/1?
+perceive and use e-commerce. It examines demographic characteristics,
+online shopping frequency, consumer experience, trust and security
+perceptions, and future purchase intention.
 
-The analysis focuses on understanding how consumers perceive e-commerce platforms, including usability, convenience, trust, security, social influence, and pandemic-related motivations. It also examines whether purchase intention is associated with demographic characteristics and online shopping frequency.
-
-The project uses **PostgreSQL and SQL for data preparation and analysis**, with **Power BI planned for interactive data visualisation**.
+The analysis focuses on reported attitudes and associations in the
+survey sample. It does not claim to measure actual post-pandemic
+behavioural change or establish causal relationships.
 
 ## Research Questions
 
-The analysis explores the following questions:
-
-1. **Consumer behaviour:** How frequently do respondents shop online, and what are their general attitudes towards e-commerce?
-2. **Usability and convenience:** How do respondents evaluate the usability, efficiency, and convenience of online shopping?
-3. **Trust and security:** How confident are respondents in the reliability, privacy, and security of e-commerce platforms?
-4. **Purchase intention:** How does online purchase intention vary across shopping frequency and demographic groups?
-5. **Relationships:** Is there an association between shopping frequency, income level, and online purchase intention?
+1.  What are the demographic characteristics and online shopping habits
+    of the respondents?
+2.  How do respondents evaluate different aspects of the e-commerce
+    experience?
+3.  How do purchase intention scores vary across shopping-frequency,
+    age, and income groups?
+4.  Is purchase intention associated with online shopping frequency or
+    monthly income?
 
 ## Dataset
 
-The dataset contains survey responses from **299 respondents** and includes:
+The dataset contains:
 
-- 6 demographic and shopping-profile variables.
-- 30 Likert-scale survey statements.
-- 8,970 individual question responses.
+-   **299 respondents**
+-   **30 survey questions**
+-   **8,970 recorded answers**
+-   A five-point Likert response scale
 
-The survey uses a five-point Likert scale, where higher scores represent stronger agreement with a statement.
+The survey covers several dimensions:
 
-### Survey Dimensions
+  Dimension                    Number of questions
+  -------------------------- ---------------------
+  Pandemic motivations                           5
+  Purchase intention                             2
+  Usability and efficiency                      12
+  Consumer attitudes                             5
+  Trust and security                             4
+  Social influence                               2
+  **Total**                                 **30**
 
-The 30 survey questions are grouped into six analytical dimensions:
-
-| Dimension | Number of Questions |
-|---|---:|
-| Usability and efficiency | 12 |
-| Pandemic-related motivations | 5 |
-| Trust and security | 4 |
-| Consumer attitudes | 5 |
-| Social influence | 2 |
-| Purchase intention | 2 |
-| **Total** | **30** |
-
-*Note: These dimensions are analytical groupings based on the survey question categories, rather than independently validated measurement scales.*
+The dimension groupings follow the survey's question categories and
+should not be interpreted as independently validated psychometric
+scales.
 
 ## Tools and Technologies
 
-| Tool | Purpose |
-|---|---|
-| PostgreSQL 16 | Relational database and data storage |
-| SQL | Data cleaning, aggregation, exploratory analysis, and correlation analysis |
-| Python | Excel-to-CSV data preparation |
-| Pandas | Data processing |
-| Power BI | Interactive dashboards and visualisation (planned) |
-| Git and GitHub | Version control and project documentation |
+-   **Python (Pandas):** Data preparation and conversion of the source
+    Excel workbook into CSV files.
+-   **PostgreSQL:** Relational data storage.
+-   **SQL:** Data cleaning checks, exploratory analysis, aggregations,
+    group comparisons, and correlation analysis.
+-   **Microsoft Power BI:** Data modelling, DAX measures, interactive
+    reports, and dashboard design.
+-   **Git and GitHub:** Version control and project documentation.
 
 ## Project Structure
 
-```text
+``` text
 bangladesh_e-commerce_portfolio/
 │
 ├── data/
 │   ├── raw/
 │   │   └── bangladesh_ecommerce_survey.xlsx
-│   │
 │   └── processed/
 │       ├── respondents.csv
 │       ├── questions.csv
@@ -80,155 +90,237 @@ bangladesh_e-commerce_portfolio/
 │   └── data_processing.py
 │
 ├── powerbi/
+│   ├── Bangladesh_Ecommerce_Dashboard.pbix
+│   ├── screenshots/
+│   └── dashboard_overview.pdf
 │
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
-## Data Preparation and Methodology
+The Power BI screenshots and PDF are optional presentation exports.
+Include them only if you create them.
 
-The original survey data was provided in Excel format and processed using Python and Pandas.
+## Data Preparation
 
-The preparation process involved:
+The original survey workbook was processed using Python and Pandas.
 
-1. Reading the original Excel survey.
-2. Separating respondent demographics, survey questions, and individual responses.
-3. Restructuring the data into three CSV files.
-4. Importing the processed data into PostgreSQL.
-5. Organising the dataset into three relational tables:
-   - `survey_respondents`
-   - `survey_questions`
-   - `survey_answers`
-6. Using SQL joins and aggregation to explore respondent characteristics and survey responses.
+The preparation workflow:
 
-### Analytical Methods
+1.  Read the source Excel workbook.
+2.  Separate the respondent, question, and answer information.
+3.  Export the data into three CSV files.
+4.  Import the processed CSV files into PostgreSQL.
+5.  Check table row counts and data completeness.
 
-The SQL analysis includes:
+The resulting relational tables are:
 
-- Descriptive statistics and frequency distributions.
-- Average Likert-scale scores at question and dimension levels.
-- Comparisons of purchase intention across demographic groups.
-- Spearman rank correlation to examine associations between ordinal variables and purchase intention.
+  -------------------------------------------------------------------------
+  Table                  Description                                   Rows
+  ---------------------- --------------------- ----------------------------
+  `survey_respondents`   Respondent                                     299
+                         demographics and      
+                         shopping habits       
 
-Purchase intention is operationalised as the average response to Q29 and Q30.
+  `survey_questions`     Survey question text                            30
+                         and dimension         
+                         categories            
+
+  `survey_answers`       Individual question                          8,970
+                         responses             
+  -------------------------------------------------------------------------
+
+## Database Model
+
+The database uses three related tables:
+
+-   `survey_respondents`: one record per respondent.
+-   `survey_questions`: one record per survey question.
+-   `survey_answers`: one record per respondent-question response.
+
+The `survey_answers` table links to the other two tables through
+`respondent_id` and `question_id`, creating a simple relational model
+suitable for analysis.
+
+## SQL Analysis
+
+The SQL scripts cover:
+
+### Exploratory analysis
+
+-   Dataset overview and record counts.
+-   Missing-value checks.
+-   Response distributions.
+-   Respondent demographics.
+-   Online shopping frequency.
+-   Average scores by question.
+-   Average scores by survey dimension.
+-   Respondent-level dimension scores.
+
+### Purchase intention analysis
+
+-   Overall purchase intention.
+-   Purchase intention by shopping frequency.
+-   Purchase intention by age group.
+-   Purchase intention by monthly income.
+-   Comparisons by gender, education, and occupation.
+-   Spearman rank correlations between purchase intention and shopping
+    frequency, and between purchase intention and income.
+
+## Power BI Dashboard
+
+The Power BI report contains four pages.
+
+### 1. Overview
+
+Provides a snapshot of the respondent sample, including:
+
+-   Total respondents.
+-   Gender distribution.
+-   Age distribution.
+-   Online shopping frequency.
+-   Average purchase intention.
+
+### 2. Consumer Experience
+
+Explores how respondents evaluate different aspects of e-commerce
+through:
+
+-   Average scores across the six survey dimensions.
+-   Average scores for individual survey questions.
+-   An interactive dimension slicer to filter the question-level chart.
+
+### 3. Purchase Intention
+
+Compares average purchase intention across:
+
+-   Online shopping frequency.
+-   Age groups.
+-   Monthly income groups.
+
+The charts include respondent counts in their tooltips to help viewers
+interpret group averages in the context of sample sizes.
+
+### 4. Key Findings
+
+Summarises the main results, highlights the strongest and weakest
+individual question scores, and presents the study limitations and
+methodology.
 
 ## Key Findings
 
-### 1. Respondent Profile
+### Consumer experience
 
-The sample consists predominantly of younger respondents:
+  Dimension                    Average score (out of 5)
+  -------------------------- --------------------------
+  Pandemic motivations                             3.99
+  Purchase intention                               3.95
+  Usability and efficiency                         3.83
+  Consumer attitudes                               3.71
+  Trust and security                               3.48
+  Social influence                                 3.46
 
-- Approximately 68.9% were aged 20–29.
-- Approximately 72.58% were male.
+Pandemic motivations received the highest average dimension score, while
+social influence and trust and security received the lowest scores.
 
-This sample composition is important when interpreting the findings, as the results may not represent the wider population of Bangladeshi consumers.
+### Individual survey questions
 
-### 2. Convenience and Usability Received Relatively Positive Evaluations
+-   **Highest average:** Q17, social distancing through e-commerce ---
+    **4.31/5**.
+-   **Lowest average:** Q19, privacy protection --- **3.34/5**.
 
-The highest-rated survey statements included:
+Other relatively low-scoring statements concerned the influence of
+economic experts and the efficiency and practicality of e-commerce.
 
-| Survey Statement | Average Score |
-|---|---:|
-| Social distancing through e-commerce (Q17) | 4.31 |
-| Easy payment process (Q08) | 4.24 |
-| Saves time (Q07) | 4.19 |
-| Easy to access and use (Q09) | 4.17 |
-| Health safety encourages e-commerce (Q15) | 4.05 |
+### Purchase intention by shopping frequency
 
-These results suggest that respondents particularly valued convenience, ease of use, and pandemic-related health and safety considerations.
+  Shopping frequency      Respondents   Average purchase intention
+  --------------------- ------------- ----------------------------
+  Once a week                      30                         4.55
+  Once a month                     93                         4.19
+  Once every 3 months              79                         3.76
+  Once every 6 months              97                         3.70
 
-### 3. Trust and Security Received Comparatively Lower Scores
+Respondents who reported shopping online more frequently tended to
+report higher purchase intention.
 
-The average scores across the six analytical dimensions were:
+The Spearman rank correlation between shopping frequency and purchase
+intention was **ρ = 0.305** (n = 299), indicating a positive
+association.
 
-| Dimension | Average Score |
-|---|---:|
-| Pandemic-related motivations | 3.99 |
-| Purchase intention | 3.95 |
-| Usability and efficiency | 3.83 |
-| Consumer attitudes | 3.71 |
-| Trust and security | 3.48 |
-| Social influence | 3.46 |
+### Purchase intention by age
 
-Trust and security had the lowest average score among the six dimensions. In particular, privacy protection received an average score of 3.34.
+  Age group     Respondents   Average purchase intention
+  ----------- ------------- ----------------------------
+  Below 20                2                         3.50
+  20--29                206                         3.90
+  30--39                 79                         4.11
+  40--49                  8                         4.13
+  Above 49                4                         3.63
 
-This suggests that, although respondents generally evaluated convenience positively, concerns related to privacy and security may remain relevant.
+The 20--29 group represents the largest share of the sample. Comparisons
+involving the other smaller age groups should be interpreted cautiously.
 
-### 4. Shopping Frequency Was Associated with Purchase Intention
+### Purchase intention by monthly income
 
-Purchase intention varied across online shopping frequency groups:
+  Monthly income (BDT)     Respondents   Average purchase intention
+  ---------------------- ------------- ----------------------------
+  Less than 10,000                 136                         3.88
+  10,000--19,000                    33                         4.45
+  20,000--29,000                    33                         4.02
+  30,000--40,000                    37                         3.65
+  More than 40,000                  60                         4.00
 
-| Shopping Frequency | Respondents | Average Purchase Intention |
-|---|---:|---:|
-| Once a week | 30 | 4.55 |
-| Once a month | 93 | 4.19 |
-| Once every 3 months | 79 | 3.76 |
-| Once every 6 months | 97 | 3.70 |
-
-Respondents who shopped online more frequently reported higher average purchase intention.
-
-A Spearman rank correlation analysis found a positive association between shopping frequency and purchase intention:
-
-**Spearman's ρ = 0.305 (n = 299)**
-
-This indicates a weak-to-moderate positive monotonic association. It does not establish that shopping frequency causes higher purchase intention.
-
-### 5. Income Showed Virtually No Association with Purchase Intention
-
-The average purchase intention varied across income groups, but the pattern was not consistently increasing with income.
-
-Spearman correlation analysis found:
-
-**Spearman's ρ = 0.022 (n = 299)**
-
-This indicates a negligible monotonic association between monthly income category and purchase intention in this sample.
-
-### 6. Purchase Intention Varied Across Occupation Groups
-
-| Occupation | Respondents | Average Purchase Intention |
-|---|---:|---:|
-| Business | 27 | 4.43 |
-| Doctor | 4 | 4.38 |
-| Teaching | 16 | 4.09 |
-| Others | 46 | 3.97 |
-| Student | 125 | 3.93 |
-| Engineer | 75 | 3.79 |
-| Government employee | 6 | 3.58 |
-
-Business respondents had the highest average purchase intention (4.43), followed by doctors (4.38). However, some occupational groups had very small sample sizes, particularly doctors and government employees. These differences should therefore be interpreted cautiously.
+The Spearman rank correlation between income and purchase intention was
+**ρ = 0.022** (n = 299), indicating a negligible monotonic association
+in this sample. The group averages also do not show a consistent
+increasing or decreasing pattern with income.
 
 ## Limitations
 
-Several limitations should be considered when interpreting the findings:
+-   The data are self-reported and represent 299 survey respondents;
+    they should not automatically be generalised to all consumers in
+    Bangladesh.
+-   The dataset does not include verified transaction records.
+-   Although the survey includes pandemic-related questions, it does not
+    provide a pre-pandemic baseline or longitudinal follow-up.
+    Therefore, it cannot establish actual post-pandemic behavioural
+    change.
+-   Some demographic groups have small sample sizes, making their
+    averages less stable.
+-   The dimension groupings are based on survey question categories and
+    have not been independently validated as psychometric scales.
+-   Spearman correlations describe associations, not causation.
 
-- **Sample representativeness:** The dataset contains 299 respondents and is predominantly composed of younger and male participants. It may not represent all Bangladeshi consumers.
-- **Self-reported responses:** The analysis reflects respondents' reported attitudes and intentions rather than verified purchasing behaviour.
-- **Cross-sectional data:** The dataset does not provide longitudinal observations or a pre-pandemic baseline. Therefore, it cannot establish how e-commerce behaviour changed over time.
-- **Ordinal measurements:** Likert-scale responses and demographic categories have limitations when treated as numerical variables.
-- **Analytical groupings:** The six survey dimensions are based on the original question categories and have not been independently validated as psychometric scales.
-- **Small subgroups:** Some occupation and age categories contain very few respondents, making comparisons less reliable.
-- **Correlation does not imply causation:** Observed associations cannot establish causal relationships.
+## Future Improvements
 
-## Future Work
+Potential extensions include:
 
-The next stage of the project is to develop an interactive Power BI dashboard featuring:
-
-- Respondent demographic profiles.
-- Online shopping frequency distributions.
-- Average scores across survey dimensions.
-- Highest- and lowest-rated survey statements.
-- Purchase intention comparisons across demographic groups.
-- Relationships between shopping frequency, income, and purchase intention.
-
-Further statistical analysis could also examine whether differences between demographic groups are statistically significant.
+-   Adding more detailed statistical testing and confidence intervals.
+-   Exploring relationships between demographic variables and individual
+    survey dimensions.
+-   Improving the dashboard with additional drill-through and filtering
+    features.
+-   Adding a reproducible environment and database setup guide.
+-   Including a data dictionary and documented data provenance.
 
 ## Conclusion
 
-This project demonstrates an end-to-end analytical workflow, from processing survey data and designing a relational database to conducting exploratory analysis using SQL.
+This project demonstrates an end-to-end analytics workflow, from
+preparing survey data with Python and storing it in PostgreSQL to
+analysing it with SQL and communicating findings through an interactive
+Power BI dashboard.
 
-The findings highlight the importance of convenience and usability in respondents' evaluations of e-commerce, while trust and security received comparatively lower scores. Shopping frequency showed a stronger association with purchase intention than monthly income in this sample.
+The results show generally positive reported attitudes towards
+e-commerce, alongside comparatively lower scores for trust and security.
+Shopping frequency had a positive association with purchase intention,
+while income showed almost no monotonic association in this sample.
 
-The project will be extended with an interactive Power BI dashboard to communicate the findings through visualisations and accessible data exploration.
+------------------------------------------------------------------------
 
----
-
-**Technologies:** PostgreSQL · SQL · Python · Pandas · Power BI · Git
+**Data redistribution note:** Before making this repository public,
+confirm that the survey dataset and its source workbook may be
+redistributed. Do not publish respondent-level or otherwise personal
+data without appropriate permission. If redistribution is not permitted,
+exclude the raw workbook and processed respondent-level CSV files, and
+document how an authorised user can obtain or prepare the data.
